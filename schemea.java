@@ -91,6 +91,7 @@ public class FirstLink {
         finally{
             try{
                 c.close();
+                state.close();
             }
             catch( SQLException ee )
             {
