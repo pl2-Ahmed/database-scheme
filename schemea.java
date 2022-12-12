@@ -55,23 +55,23 @@ public class FirstLink {
                     + "member_address nvarchar(50), "
                     + "member_phoneNumber nvarchar(25), "
                     + "member_birthDate date, "
-                    + "meber_subscription_startDate date, "
-                    + "meber_subscription_endDate date, "
+                    + "member_subscription_startDate date, "
+                    + "member_subscription_endDate date, "
                     + "member_coachId int references coach(coach_id)"
                     + ")";*/
             
             /****************************************************************/
-            /*create inpox table*/
+            /*create inbox table*/
             
-            /*query = "create table inpox("
-                    + "inpox_message nvarchar(150), "
-                    + "inpox_date date, "
+            /*query = "create table inbox("
+                    + "inbox_message nvarchar(150), "
+                    + "inbox_date date, "
                     + "coach_id int references coach(coach_id), "
                     + "member_id int references member(member_id)"
                     + ")";*/
                        
             /****************************************************************/
-            /*create inpox report*/
+            /*create inbox report*/
             
             /*
             query = "create table report("
