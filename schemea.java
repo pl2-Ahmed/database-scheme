@@ -49,7 +49,7 @@ public class FirstLink {
                     + "member_id int primary key, "
                     + "member_firstName nvarchar(50), "
                     + "member_lastName nvarchar(50), "
-                    + "member_subscription float, "
+                    + "member_subscription int, "
                     + "member_email nvarchar(50), "
                     + "member_password nvarchar(50), "
                     + "member_address nvarchar(50), "
