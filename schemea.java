@@ -54,7 +54,7 @@ public class FirstLink {
                     + "member_password nvarchar(50), "
                     + "member_address nvarchar(50), "
                     + "member_phoneNumber nvarchar(25), "
-                    + "member_birthDate date, "
+                    + "member_age int, "
                     + "member_subscription_startDate date, "
                     + "member_subscription_endDate date, "
                     + "member_coachId int references coach(coach_id)"
